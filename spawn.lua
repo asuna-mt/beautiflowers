@@ -8,7 +8,7 @@ local flowers = beautiflowers.flowers
     more than 5 = a lot of flowers
 ]]--
 
-local FLOWERS_AMOUNT = 5
+local FLOWERS_AMOUNT = 4
 
 --Maximun height that you want to spawn flowers (min 1, max 30000)
 local MAX_HEIGHT = 30000
@@ -18,7 +18,16 @@ local function register_pasto(name)
 	minetest.register_decoration({
 		name = "beautiflowers:"..name,
 		deco_type = "simple",
-		place_on = {"default:dirt_with_grass","default:dirt"},
+		place_on = {
+      "default:dirt_with_grass",
+      "default:dirt",
+      "naturalbiomes:alderswamp_litter",
+      "naturalbiomes:alpine_litter",
+      "naturalbiomes:bambooforest_litter",
+      "naturalbiomes:mediterran_litter",
+      "naturalbiomes:outback_litter",
+      "naturalbiomes:savannalitter",
+    },
 		sidelen = 16,
 		noise_params = {
 			offset = -0.03,
@@ -52,7 +61,7 @@ local function register_bonsai(name)
 			persist = 0.66,
 		},
 		y_max = 30000,
-		y_min = 30,
+		y_min = 60,
 		decoration = "beautiflowers:"..name,
 	})
 
@@ -63,7 +72,15 @@ local function register_flower(name)
 	minetest.register_decoration({
 		name = "beautiflowers:"..name,
 		deco_type = "simple",
-		place_on = {"default:dirt_with_grass"},
+		place_on = {
+      "default:dirt_with_grass",
+      "naturalbiomes:alderswamp_litter",
+      "naturalbiomes:alpine_litter",
+      "naturalbiomes:bambooforest_litter",
+      "naturalbiomes:mediterran_litter",
+      "naturalbiomes:outback_litter",
+      "naturalbiomes:savannalitter",
+    },
 		sidelen = 16,
         fill_ratio = fill,
 		y_max = MAX_HEIGHT,
@@ -104,8 +121,8 @@ minetest.register_abm({
 	end,
 })
 
-for i = 1, #flowers do
-    local name = unpack(flowers[i])
+--[[for i = 1, #flowers do
+    local name, color = unpack(flowers[i])
     local aux = unpack(name:split("_"))
     if aux == "pasto" then
         register_pasto(name)
@@ -113,10 +130,10 @@ for i = 1, #flowers do
         if aux == "bonsai" then
             register_bonsai(name)
         else
-            register_flower(name)
+            register_flower(name,color)
         end
 
     end
 
 
-end
+end]]
