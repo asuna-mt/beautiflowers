@@ -29,15 +29,15 @@ beautiflowers.flowers ={
     {"Amaia","yellow", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
     {"Any","yellow", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Anastasia","yellow", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
-    {"Astrid","violet", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
+    {"Astrid","blue", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
     {"Beatriz","blue", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
     {"Belen","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
     {"Berta","blue", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
-    {"Blanca","violet", {-5 / 16, -0.5, -5 / 16, 5 / 16, -1 / 16, 5 / 16}},
+    {"Blanca","blue", {-5 / 16, -0.5, -5 / 16, 5 / 16, -1 / 16, 5 / 16}},
     {"Carla","white", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
-    {"Casandra","violet", {-5 / 16, -0.5, -5 / 16, 5 / 16, -1 / 16, 5 / 16}},
-    {"Clara","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
-    {"Claudia","violet", {-0.375, -0.5, -0.375, 0.375, 0.375, 0.375}},
+    {"Casandra","blue", {-5 / 16, -0.5, -5 / 16, 5 / 16, -1 / 16, 5 / 16}},
+    {"Clara","blue", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
+    {"Claudia","blue", {-0.375, -0.5, -0.375, 0.375, 0.375, 0.375}},
     {"Cloe","white", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
     {"Cristina","pink", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Dafne","orange", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
@@ -56,7 +56,7 @@ beautiflowers.flowers ={
     {"Ingrid","white", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
     {"Iris","white", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
     {"Ivette","white", {-0.375, -0.5, -0.375, 0.375, 0.375, 0.375}},
-    {"Jennifer","red", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
+    {"Jennifer","orange", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
     {"Lara","red", {-2 / 16, -0.5, -2 / 16, 2 / 16, -2 / 16, 2 / 16}},
     {"Laura","red", {-2 / 16, -0.5, -2 / 16, 2 / 16, -2 / 16, 2 / 16}},
     {"Lidia","red", {-2 / 16, -0.5, -2 / 16, 2 / 16, -2 / 16, 2 / 16}},
@@ -93,13 +93,13 @@ beautiflowers.flowers ={
     {"Miriam","violet", {-5 / 16, -0.5, -5 / 16, 5 / 16, -1 / 16, 5 / 16}},
     {"Minerva","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 6 / 16, 2 / 16}},
     {"Vanesa","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
-    {"Sabrina","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
+    {"Sabrina","red", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Rocio","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Regina","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Paula","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, -2 / 16, 2 / 16}},
     {"Olga","violet", {-2 / 16, -0.5, -2 / 16, 2 / 16, -2 / 16, 2 / 16}},
     {"Xena","violet", {-3 / 16, -0.5, -3 / 16, 3 / 16, -2 / 16, 3 / 16}},
-    {"Diana","pink", {-2 / 16, -0.5, -2 / 16, 2 / 16, 6 / 16, 2 / 16}},
+    {"Diana","white", {-2 / 16, -0.5, -2 / 16, 2 / 16, 6 / 16, 2 / 16}},
 	{"Caroline","pink", {-2 / 16, -0.5, -2 / 16, 2 / 16, 6 / 16, 2 / 16}},
     {"Michelle","white", {-2 / 16, -0.5, -2 / 16, 2 / 16, 7 / 16, 2 / 16}},
     {"Genesis","white", {-2 / 16, -0.5, -2 / 16, 2 / 16, 1 / 16, 2 / 16}},
@@ -147,50 +147,27 @@ for i = 1, #flowers do
     end
 end
 
-minetest.register_craft({
-	output = "beautiflowers:bonsai_1",
-	recipe = {
-		{"default:cobble", "default:cobble", "default:cobble"},
-		{"default:cobble", "default:sapling", "default:cobble"},
-        {"default:cobble", "default:cobble", "default:cobble"}
-	}
-})
+local function register_azalea()
+    local azaleas = {"", "Autum", "Blue", "Orange", "Green", "Red", "Rouse"}
+    
+    for _, name in ipairs(azaleas) do
+        local lname = name:lower()
+        local node_name = "beautiflowers:azalea" .. (lname ~= "" and "_" .. lname or "")
+        local texture = "azalea" .. (lname ~= "" and "_" .. lname or "") .. ".png"
+        
+        minetest.register_node(node_name, {
+            paramtype = "light",
+            drawtype = "mesh",
+            mesh = "azalea.obj",
+            use_texture_alpha = "clip",
+            description = name .. " Azalea",
+            tiles = {texture},
+            groups = {snappy = 3, beautiflowers = 1, leaves = 1, flammable = 1, attached_node = 1},
+        })
+    end
+end
 
-minetest.register_craft({
-	output = "beautiflowers:bonsai_2",
-	recipe = {
-		{"default:cobble", "default:sapling", "default:cobble"},
-		{"default:cobble", "default:cobble", "default:cobble"},
-        {"default:cobble", "default:sapling", "default:cobble"}
-	}
-})
+register_azalea()
 
-minetest.register_craft({
-	output = "beautiflowers:bonsai_3",
-	recipe = {
-		{"default:cobble", "default:sapling", "default:cobble"},
-		{"default:cobble", "default:sapling", "default:cobble"},
-        {"default:cobble", "default:sapling", "default:cobble"}
-	}
-})
-
-minetest.register_craft({
-	output = "beautiflowers:bonsai_4",
-	recipe = {
-		{"default:cobble", "default:sapling", "default:cobble"},
-		{"default:sapling", "default:cobble", "default:sapling"},
-        {"default:cobble", "default:sapling", "default:cobble"}
-	}
-})
-
-minetest.register_craft({
-	output = "beautiflowers:bonsai_5",
-	recipe = {
-		{"default:cobble", "default:sapling", "default:cobble"},
-		{"default:sapling", "default:sapling", "default:sapling"},
-        {"default:cobble", "default:sapling", "default:cobble"}
-	}
-})
-
-
-dofile(mpath .. "/spawn.lua")
+dofile(mpath .. "/mapgen.lua")
+--dofile(mpath .. "/spread.lua")
